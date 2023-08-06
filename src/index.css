@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.board_row:after{
+  clear:both;
+  content:'';
+  display:table;
+}
+
+  
+
+.status{
+  color: rgb(255, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
